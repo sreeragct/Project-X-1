@@ -1,2 +1,2 @@
 pymongo==3.0.3
-gunicorn
+Gunicorn==20.0.3

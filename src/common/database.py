@@ -1,10 +1,10 @@
-__author__ = 'jslvtr'
+
 
 import pymongo
 
 
 class Database(object):
-    URI = "mongodb://127.0.0.1:27017"
+    URI = "mongodb://Test:Test123@ds259528.mlab.com:59528/heroku_zptt3q6d"
     DATABASE = None
 
     @staticmethod

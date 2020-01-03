@@ -28,7 +28,6 @@ flipflop==1.0
 guess-language==0.2
 itsdangerous==0.24
 pbr==0.10.0
-psycopg2==2.5.4
 python-openid==2.2.5
 pytz==2014.7
 six==1.8.0

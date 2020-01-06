@@ -14,7 +14,7 @@ app.secret_key='siva123'
 
 
 @app.route('/')
-def index():
+def home_template():
     return render_template('home.html')
 
 

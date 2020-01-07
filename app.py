@@ -1,7 +1,7 @@
-from src.common.database import Database
-from src.models.blog import Blog
-from src.models.post import Post
-from src.models.user import User
+from common.database import Database
+from models.blog import Blog
+from models.post import Post
+from models.user import User
 
 
 

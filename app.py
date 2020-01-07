@@ -1,12 +1,12 @@
-from src.common.database import Database
-from src.models.blog import Blog
-from src.models.post import Post
-from src.models.user import User
+from common.database import Database
+from models.blog import Blog
+from models.post import Post
+from models.user import User
 
 
 
 
-from flask import Flask, render_template, request, session, make_response
+from flask import Flask, render_template, request, session, make_response, redirect, url_for
 
 app = Flask(__name__)  # '__main__'
 app.secret_key='siva123'
@@ -52,6 +52,7 @@ def register_user():
     password = request.form['password']
 
     User.register(email, password)
+    session['email']=email
 
     return render_template("profile.html", email=session['email'])
 
